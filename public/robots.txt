@@ -1,0 +1,50 @@
+
+# Global rules
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /internal/
+Disallow: /user/
+
+# Sitemap
+Sitemap: https://netieku.es/sitemap.xml
+
+# Specific bots with full access
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Sogou
+Allow: /
+
+User-agent: Exabot
+Allow: /
+
+# Social Media bots
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Rate limiting for crawlers
+User-agent: *
+Crawl-delay: 10
